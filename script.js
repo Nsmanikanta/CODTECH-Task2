@@ -13,7 +13,7 @@ function addTask() {
     listItem.textContent = taskText;
 
     const deleteButton = document.createElement('button');
-    deleteButton.textContent = "X";
+    deleteButton.textContent = "Delete";
     deleteButton.onclick = function () {
         taskList.removeChild(listItem);
     };
@@ -24,4 +24,6 @@ function addTask() {
     };
 
     taskList.appendChild(listItem);
-    taskInput.value = "";  
+    taskInput.value = ""; 
+}
+ 
