@@ -24,4 +24,4 @@ function addTask() {
     };
 
     taskList.appendChild(listItem);
-    taskInput.value = "";  // Clear the input
+    taskInput.value = "";  
